@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Diaz Critan Eduardo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de comentarios.</title>
+</head>
+<body>
+    <div>
+        <h1>Formulario de comentarios:</h1>
+    </div>
+    <div>
+        <p>Por favor, deje un comentario!</p>
+    </div>
+   <div>
+       <form method="get" action="coments.html">
+           <div>
+               <label for="nombre">Ingrese su nombre:</label>
+               <input type="text" name="nombre" id="nombre">
+           </div>
+           <p></p>
+           <div>
+               <label for="correocom">Ingrese su email:</label>
+               <input type="text" name="correocom" id="correocom" placeholder="ejemplo@email.com">
+           </div>
+           <p></p>
+           <div>
+               <label for="coment">Deje su comentario!</label><br />
+               <textarea name="coment" id="coment" placeholder="Agregar un comentario."></textarea>
+           </div>
+           <div>
+               <input type="submit" value="Enviar!">
+           </div>
+       </form>
+   </div>
+    <div>
+        <p><a href="index_tp4.html">Volver al inicio!</a></p>
+    </div>
+</body>
+</html>

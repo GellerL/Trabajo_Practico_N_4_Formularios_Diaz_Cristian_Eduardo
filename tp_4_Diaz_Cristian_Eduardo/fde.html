@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Diaz Critan Eduardo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de encuesta.</title>
+</head>
+<body>
+    <div>
+        <h1>Formulario de encuesta:</h1>
+    </div>
+    <div>
+        <p>Por favor, complete la siguiente encuesta!</p>
+    </div>
+    <div>
+        <form method="get" action="encuesta.html">
+            <div>
+                <label for="correoenc">Ingrese su email para realizar la encuesta:</label><br />
+                <input type="text" name="correosub" id="correosub" placeholder="ejemplo@email.com">
+            </div>
+            <p></p>
+            <div>
+                <label for="edad">¿Cu&aacute;l es tu edad?</label><br />
+                <input type="radio" name="edad" value="18men"><span>Menos de 18 años</span>
+                <input type="radio" name="edad" value="18a30"><span>18-30 años</span>
+                <input type="radio" name="edad" value="30omas"><span>30 años o más</span>
+            </div>
+            <p></p>
+            <div>
+                <label for="genero">¿Cu&aacute;l es tu g&eacute;nero?</label><br />
+                <input type="radio" name="genero" value="femenino"><span>Femenino</span>
+                <input type="radio" name="genero" value="manculino"><span>Masculino</span>
+                <input type="radio" name="genero" value="otro"><span>Otro</span>
+            </div>
+            <p></p>
+            <div>
+                <label for="red">¿Qu&eacute; red social utilizas con m&aacute;s frecuencia?</label><br />
+                <input type="radio" name="red" value="facebook"><span>Facebook</span>
+                <input type="radio" name="red" value="instagram"><span>Instagram</span>
+                <input type="radio" name="red" value="twitter"><span>Twitter (X)</span>
+                <input type="radio" name="red" value="otras"><span>Otras</span>
+            </div>
+            <p></p>
+            <div>
+                <label for="dep">¿Cu&aacute;l es tu deporte favorito?</label><br />
+                <input type="radio" name="dep" value="fulbo"><span>F&uacute;tbol</span>
+                <input type="radio" name="dep" value="baloncesto"><span>Baloncesto</span>
+                <input type="radio" name="dep" value="tenis"><span>Tenis</span>
+                <input type="radio" name="dep" value="otro"><span>Otro</span>
+            </div>
+            <p></p>
+            <div>
+                <label for="anual">¿Cu&aacute;l es tu estaci&oacute;n del año favorita?:</label><br />
+                <input type="radio" name="anual" value="primavera"><span>Primavera</span>
+                <input type="radio" name="anual" value="verano"><span>Verano</span>
+                <input type="radio" name="anual" value="otoño"><span>Otoño</span>
+                <input type="radio" name="anual" value="invierno"><span>Invierno</span>
+            </div>
+            <p></p>
+            <div>
+                <label for="masc">¿Qu&eacute; tipo de mascota prefieres?:</label><br />
+                <input type="radio" name="masc" value="perro"><span>Perro</span>
+                <input type="radio" name="masc" value="gato"><span>Gato</span>
+                <input type="radio" name="masc" value="trex"><span>Tiranosaurio Rex</span>
+                <!--lo siento, tenia que poner al tiranosaurio.-->
+                <input type="radio" name="masc" value="otro"><span>Otros</span>
+            </div>
+            <p></p>
+            <div>
+                <input type="submit" value="Enviar Encueta!">
+            </div>
+        </form>
+    </div>
+    <div>
+        <p><a href="index_tp4.html">Volver al inicio!</a></p>
+    </div>
+</body>
+</html>
